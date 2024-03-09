@@ -12,15 +12,15 @@
         "led_count": 12
     },
     "ws2812": {
-        "pin": "D3"
+        "pin": "D2"
     },
     "matrix_pins": {
-        "cols": ["D3","D4", "C6", "D7", "E6", "B4", "B5"],
+        "cols": ["D0", "D4", "C6", "D7", "E6", "B4", "B5"],
         "rows": ["F6", "F7", "B1", "B3", "B2", "B6"]
     },
     "diode_direction": "COL2ROW",
     "split": {
-        "soft_serial_pin": "D0"
+        "soft_serial_pin": "D1"
     },
     "processor": "atmega32u4",
     "bootloader": "caterina",
