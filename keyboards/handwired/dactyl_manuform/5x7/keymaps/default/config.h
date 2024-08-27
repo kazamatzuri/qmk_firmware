@@ -21,3 +21,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MASTER_RIGHT
 
 //#define EE_HANDS
+#define SPLIT_USB_DETECT
+#define SOFT_SERIAL_PIN D2
+// #define SELECT_SOFT_SERIAL_SPEED 5
+// #define SERIAL_DEBUG
